@@ -126,7 +126,7 @@ spec:
     ...
     solvers:
     - dns01:
-        azureDNS:
+        azuredns:
           subscriptionID: AZURE_SUBSCRIPTION_ID
           resourceGroupName: AZURE_DNS_ZONE_RESOURCE_GROUP
           hostedZoneName: AZURE_DNS_ZONE
